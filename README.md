@@ -1,1 +1,1 @@
-# Js-pokemon
+# Pokemons

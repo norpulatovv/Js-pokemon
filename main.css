@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #212529;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+#parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 50px;
+}
+
+.pokemon-card{
+    width: 250px;
+    background-color: #FFFF00;
+    border-radius: 20px;
+}
+
+.raqam{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.son{
+    background-color: red;
+    color: white;
+    border-radius: 0px 20px 0 0;
+    width: 50px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+}
+
+h1{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.poison{
+    width: 128px;
+    height: 41px;
+    background-color: #C4E4FF;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 21px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.fire{
+    color: #80007C;
+}
+
+.rasm{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.soat{
+    background-color: #00FFFF;
+    width: 50px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 0 20px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.animatsiya{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#form{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+input{
+    width: 209px;
+    height: 36px;
+    border: none;
+    border-radius: 15px;
+    padding-left: 10px;
+    outline: none;
+}
+
+#select{
+    width: 209px;
+    height: 36px;
+    border: none;
+    border-radius: 15px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.btn{
+    width: 209px;
+    height: 36px;
+    border: none;
+    border-radius: 15px;
+    padding-left: 10px;
+    background-color: #198754;
+    color: white;
+}
